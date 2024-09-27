@@ -1,0 +1,995 @@
+
+<!DOCTYPE html>
+<html lang="fa" style="scroll-behavior: smooth">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>کدیلو | Codilo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/Codilo.css') }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='assets/images/favicon.png') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/lineicons.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/tailwindcss.css') }}" />
+</head>
+
+<body class="vazir">
+
+  <header id="header-wrap" class="relative">
+
+    <div class="navigation fixed top-0 left-0 w-full z-30 duration-300">
+      <div class="container px-4">
+        <nav class="
+              navbar
+              py-2
+              navbar-expand-lg
+              flex
+              justify-between
+              items-center
+              relative
+              duration-300
+            ">
+          <a class="navbar-brand" href="index.html">
+            <img src="{{ url_for('static', filename='assets/images/Codilo.png') }}" alt="Logo" />
+          </a>
+          <button class="navbar-toggler focus:outline-none block lg:hidden">
+            <span class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                ">
+            </span>
+            <span class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                ">
+            </span>
+            <span class="
+                  toggler-icon
+                  block
+                  bg-gray-700
+                  relative
+                  duration-300
+                  h-[2px]
+                  w-[30px]
+                  my-[6px]
+                ">
+            </span>
+          </button>
+
+          <div class="
+                collapse
+                navbar-collapse
+                hidden
+                lg:block
+                duration-300
+                shadow
+                absolute
+                top-full
+                left-0
+                mt-full
+                bg-white
+                z-20
+                px-5
+                py-3
+                w-full
+                lg:static lg:bg-transparent lg:shadow-none
+              " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto justify-center items-center lg:flex">
+              <li class="nav-item">
+                <a class="page-scroll nav-link active" href="#hero-area">خانه</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#services">سرویس‌ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#feature">قابلیت‌ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="page-scroll nav-link" href="#team">تیم</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">گواهینامه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">قیمت</a>
+              </li>
+            </ul>
+          </div>
+          <div class="
+                header-btn
+                hidden
+                sm:block sm:absolute sm:right-0 sm:mr-16
+                lg:static lg:mr-0
+              ">
+            <a class="
+                  text-blue-600
+                  border border-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-600 hover:text-white
+                " href="#feature">
+              سوالات</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <section id="hero-area" class="bg-blue-100 pt-48 pb-10">
+    <div class="container px-4">
+      <div class="flex justify-between">
+        <div class="w-full text-center">
+          <h2 class="text-4xl font-bold leading-snug text-gray-700 mb-10">
+            قالب تک صفحه‌ای
+          </h2>
+          <div class="text-center mb-10">
+            <a href="javascript:void(0)" rel="nofollow" class="
+                  text-white
+                  bg-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-500
+                ">
+              همین حالا بخرید</a>
+          </div>
+          <div class="text-center">
+            <img class="img-fluid mx-auto" src="{{ url_for('static', filename='assets/images/hero.svg') }}" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="py-24">
+    <div class="container px-4">
+      <div class="text-center">
+        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+          سرویس‌های ما
+        </h2>
+      </div>
+      <div class="flex flex-wrap">
+        <!-- Services item -->
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="m-4">
+            <div class="mb-4 text-blue-600 text-5xl">
+              <i class="lni lni-cog"> </i>
+            </div>
+            <div>
+              <h3 class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  ">
+                طراحی وب
+              </h3>
+              <p class="text-gray-600">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه
+                و مجله
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="m-4">
+            <div class="mb-4 text-blue-600 text-5xl">
+              <i class="lni lni-bar-chart"> </i>
+            </div>
+            <div>
+              <h3 class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  ">
+                طراحی دیزاین
+              </h3>
+              <p class="text-gray-600">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه
+                و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="m-4">
+            <div class="mb-4 text-blue-600 text-5xl">
+              <i class="lni lni-briefcase"> </i>
+            </div>
+            <div>
+              <h3 class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  ">
+                برندینگ بیزنس
+              </h3>
+              <p class="text-gray-600">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه
+                و مجله
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="m-4">
+            <div class="mb-4 text-blue-600 text-5xl">
+              <i class="lni lni-pencil-alt"> </i>
+            </div>
+            <div>
+              <h3 class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  ">
+                تولید محتوا
+              </h3>
+              <p class="text-gray-600">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه
+                و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="m-4">
+            <div class="mb-4 text-blue-600 text-5xl">
+              <i class="lni lni-mobile"> </i>
+            </div>
+            <div>
+              <h3 class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  ">
+                توسعه نرم‌افزار
+              </h3>
+              <p class="text-gray-600">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه
+                و مجله
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="m-4">
+            <div class="mb-4 text-blue-600 text-5xl">
+              <i class="lni lni-layers"> </i>
+            </div>
+            <div>
+              <h3 class="
+                    text-gray-800
+                    font-semibold
+                    text-lg
+                    block
+                    mb-3
+                    uppercase
+                  ">
+                دیجیتال مارکتینگ
+              </h3>
+              <p class="text-gray-600">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+                متون بلکه روزنامه
+                و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="feature" class="bg-blue-100 py-24">
+    <div class="container px-4">
+      <div class="flex flex-wrap items-center">
+        <div class="w-full lg:w-1/2">
+          <div class="mb-5 lg:mb-0">
+            <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+              در مورد ما بیشتر بدانید
+            </h2>
+
+            <div class="flex flex-wrap">
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-layers"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      لورم ایپسوم متن ساختگی
+                    </h4>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-gift"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      لورم اپیسوم متن ساختگی
+                    </h4>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-laptop-phone"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      لورم اپیسوم متن ساختگی
+                    </h4>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="m-3">
+                  <div class="icon text-4xl text-blue-600 mb-3">
+                    <i class="lni lni-leaf"> </i>
+                  </div>
+                  <div class="features-content">
+                    <h4 class="text-gray-800 font-medium block mb-3">
+                      لورم اپیسوم متن ساختگی
+                    </h4>
+                    <p>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2">
+          <div class="mx-3 lg:mr-0 lg:ml-3">
+            <img src="{{ url_for('static', filename='assets/images/feature/img-1.svg') }}" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="team" class="py-24 text-center">
+    <div class="container px-4">
+      <div class="text-center">
+        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+          تیم ما
+        </h2>
+      </div>
+      <div class="flex flex-wrap justify-center">
+
+        <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                bg-white
+                shadow
+                duration-300
+                group
+                hover:shadow-lg
+              ">
+            <div class="team-img relative">
+              <img class="img-fluid" src="{{ url_for('static', filename='assets/images/team/img1.jpg') }}" alt="" />
+              <div class="
+                    w-full
+                    h-full
+                    flex
+                    items-center
+                    justify-center
+                    absolute
+                    top-0
+                    left-0
+                    bg-white bg-opacity-60
+                    duration-300
+                    opacity-0
+                    group-hover:opacity-100
+                  ">
+                <ul class="flex justify-center">
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-indigo-500">
+                      <i class="lni lni-facebook-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-blue-400">
+                      <i class="lni lni-twitter-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-red-500">
+                      <i class="lni lni-instagram-filled" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center px-5 py-3">
+              <h3 class="text-gray-800 font-bold uppercase text-lg my-2">
+                علیرضا
+              </h3>
+              <p>طراح دیزاین</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                bg-white
+                shadow
+                duration-300
+                group
+                hover:shadow-lg
+              ">
+            <div class="team-img relative"><img class="img-fluid" src="{{ url_for('static', filename='assets/images/team/img2.jpg') }}" alt="" />
+              <div class="
+                    w-full
+                    h-full
+                    flex
+                    items-center
+                    justify-center
+                    absolute
+                    top-0
+                    left-0
+                    bg-white bg-opacity-60
+                    duration-300
+                    opacity-0
+                    group-hover:opacity-100
+                  ">
+                <ul class="flex justify-center">
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-indigo-500">
+                      <i class="lni lni-facebook-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-blue-400">
+                      <i class="lni lni-twitter-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-red-500">
+                      <i class="lni lni-instagram-filled" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center px-5 py-3">
+              <h3 class="text-gray-800 font-bold uppercase text-lg my-2">
+                سارا
+              </h3>
+              <p>فرانت اند دولوپر</p>
+            </div>
+          </div>
+        </div>
+        <!-- Team Item Ends -->
+        <!-- Team Item Starts -->
+        <div class="max-w-sm sm:w-1/2 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                bg-white
+                shadow
+                duration-300
+                group
+                hover:shadow-lg
+              ">
+            <div class="team-img relative">
+              <img class="img-fluid" src="{{ url_for('static', filename='assets/images/team/img3.jpg') }}" alt="" />
+              <div class="
+                    w-full
+                    h-full
+                    flex
+                    items-center
+                    justify-center
+                    absolute
+                    top-0
+                    left-0
+                    bg-white bg-opacity-60
+                    duration-300
+                    opacity-0
+                    group-hover:opacity-100
+                  ">
+                <ul class="flex justify-center">
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-indigo-500">
+                      <i class="lni lni-facebook-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-blue-400">
+                      <i class="lni lni-twitter-original" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                  <li class="mx-1">
+                    <a href="" class="social-link hover:bg-red-500">
+                      <i class="lni lni-instagram-filled" aria-hidden="true">
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center px-5 py-3">
+              <h3 class="text-gray-800 font-bold uppercase text-lg my-2">
+                هپی سباستین
+              </h3>
+              <p>فرانت اند دولوپر</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div id="clients" class="py-16 bg-blue-100">
+    <div class="container px-4">
+      <div class="text-center">
+        <h2 class="mb-12 text-4xl text-gray-700 font-bold tracking-wide">
+          شرکت‌های زیر از خدمات ما استفاده می‌کنند
+        </h2>
+      </div>
+      <div class="flex flex-wrap justify-center items-center">
+        <div class="w-1/2 md:w-1/4 lg:w-1/4">
+          <div class="m-3 p-4 group text-center">
+            <img class="mx-auto opacity-60 group-hover:opacity-100 filter grayscale group-hover:filter-none group-hover:grayscale-[none]" src="{{ url_for('static', filename='assets/images/clients/graygrids.svg') }}" alt="" />
+
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 lg:w-1/4">
+          <div class="m-3 p-4 group text-center">
+            <img class="mx-auto opacity-60 group-hover:opacity-100 filter grayscale group-hover:filter-none group-hover:grayscale-[none]" src="{{ url_for('static', filename='assets/images/clients/uideck.svg') }}" alt="" />
+
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 lg:w-1/4">
+          <div class="m-3 p-4 group text-center">
+            <img class="mx-auto opacity-60 group-hover:opacity-100 filter grayscale group-hover:filter-none group-hover:grayscale-[none]" src="{{ url_for('static', filename='assets/images/clients/ayroui.svg') }}" alt="" />
+
+          </div>
+        </div>
+        <div class="w-1/2 md:w-1/4 lg:w-1/4">
+          <div class="m-3 p-4 group text-center">
+            <img class="mx-auto opacity-60 group-hover:opacity-100 filter grayscale group-hover:filter-none group-hover:grayscale-[none]" src="{{ url_for('static', filename='assets/images/clients/lineicons.svg') }}" alt="" />
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="pricing" class="py-24">
+    <div class="container px-4">
+      <div class="flex flex-wrap justify-center md:justify-start">
+
+        <div class="w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                py-10
+                px-8
+                shadow
+                rounded
+                duration-300
+                hover:shadow-lg hover:bg-blue-100
+                wow
+                fadeInLeft
+              ">
+            <div class="mb-3">
+              <h3 class="text-blue-600 font-bold uppercase text-sm">عادی</h3>
+            </div>
+            <div class="mb-5">
+              <p class="text-gray-700">
+                <span class="font-bold text-2xl">۲۰۰ هزار تومان</span>
+                <span class="font-medium text-sm">/ ماهانه</span>
+              </p>
+            </div>
+            <ul class="mb-16">
+              <li class="text-gray-500 leading-9">تا پنج پروژه</li>
+              <li class="text-gray-500 leading-9">حداکثر ۱۰ همکار</li>
+              <li class="text-gray-500 leading-9">۲ گیگابایت فضای ذخیره سازی</li>
+            </ul>
+            <a href="" class="
+                  text-white
+                  bg-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-500
+                ">خرید</a>
+          </div>
+        </div>
+
+        <div class="w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                py-10
+                px-8
+                shadow
+                rounded
+                duration-300
+                hover:shadow-lg hover:bg-blue-100
+                bg-blue-100
+                wow
+                fadeInLeft
+              ">
+            <div class="mb-3">
+              <h3 class="text-blue-600 font-bold uppercase text-sm">
+                حرفه‌ای
+              </h3>
+            </div>
+            <div class="mb-5">
+              <p class="text-gray-700">
+                <span class="font-bold text-2xl">۵۰۰ هزار تومان</span>
+                <span class="font-medium text-sm">/ ماهانه</span>
+              </p>
+            </div>
+            <ul class="mb-16">
+              <li class="text-gray-500 leading-9">حداکثر ده پروژه</li>
+              <li class="text-gray-500 leading-9">حداکثر ۲۰ همکار</li>
+              <li class="text-gray-500 leading-9">۱۰ گیگابایت فضای ذخیره‌سازی</li>
+              <li class="text-gray-500 leading-9">کارکردن تیمی به صورت همزمان</li>
+            </ul>
+            <a href="" class="
+                  text-white
+                  bg-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-500
+                ">خرید</a>
+          </div>
+        </div>
+
+        <div class="w-3/4 sm:w-2/3 md:w-1/2 lg:w-1/3">
+          <div class="
+                m-3
+                text-center
+                py-10
+                px-8
+                shadow
+                rounded
+                duration-300
+                hover:shadow-lg hover:bg-blue-100
+              ">
+            <div class="mb-3">
+              <h3 class="text-blue-600 font-bold uppercase text-sm">
+                نهایی
+              </h3>
+            </div>
+            <div class="mb-5">
+              <p class="text-gray-700">
+                <span class="font-bold text-2xl">۱ میلیون تومان</span>
+                <span class="font-medium text-sm">/ ماهانه</span>
+              </p>
+            </div>
+            <ul class="mb-16">
+              <li class="text-gray-500 leading-9">ایجاد پروژه بدون محدودیت</li>
+              <li class="text-gray-500 leading-9">بدون محدودیت در گرفتن همکار</li>
+              <li class="text-gray-500 leading-9">فضای ذخیره سازی نامحدود</li>
+              <li class="text-gray-500 leading-9">کارکردن تیمی به صورت همزمان</li>
+              <li class="text-gray-500 leading-9">بدون تبلیغات</li>
+            </ul>
+            <a href="" class="
+                  text-white
+                  bg-blue-600
+                  px-10
+                  py-3
+                  rounded-full
+                  duration-300
+                  hover:bg-blue-500
+                ">خرید</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="Subscribes" class="text-center py-20 bg-blue-100">
+    <div class="container px-4">
+      <div class="flex justify-center mx-3">
+        <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
+          <h4 class="mb-3 text-4xl text-gray-700 font-bold tracking-wide">
+            شروع به صورت رایگان
+          </h4>
+          <p class="mb-4 text-gray-600 leading-loose text-sm">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+            <br />
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+          </p>
+          <form for="">
+            <div class="wow fadeInDown">
+              <input type="Email" class="
+                    w-full
+                    mb-5
+                    bg-white
+                    border border-blue-300
+                    rounded-full
+                    px-5
+                    py-3
+                    duration-300
+                    focus:border-blue-600
+                    outline-none
+                  " name="email" placeholder="آدرس ایمیل" />
+              <button class="
+                    border-0
+                    bg-blue-600
+                    text-white
+                    rounded-full
+                    w-12
+                    h-12
+                    duration-300
+                    hover:opacity-75
+                  " type="submit">
+                <i class="lni lni-arrow-right"> </i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="bg-gray-800 py-16">
+    <div class="container px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+          <div class="mx-3 mb-8">
+            <div class="footer-logo mb-3">
+              <img src="{{ url_for('static', filename='assets/images/Codilo.png') }}" alt="" />
+            </div>
+            <p class="text-gray-300">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و
+              متون بلکه روزنامه
+            </p>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+          <div class="mx-3 mb-8">
+            <h3 class="font-bold text-xl text-white mb-5">شرکت</h3>
+            <ul>
+              <li>
+                <a href="" class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    ">
+                  بیانیه‌های مطبوعاتی
+                </a>
+              </li>
+              <li>
+                <a href="" class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    ">ماموریت‌‌ها</a>
+              </li>
+              <li>
+                <a href="" class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    ">نقشه راه</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+          <div class="mx-3 mb-8">
+            <h3 class="font-bold text-xl text-white mb-5">درباره ما</h3>
+            <ul>
+              <li>
+                <a href="" class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    ">
+                  سابقه
+                </a>
+              </li>
+              <li>
+                <a href="" class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    ">تیم</a>
+              </li>
+              <li>
+                <a href="" class="
+                      leading-9
+                      text-gray-100
+                      duration-300
+                      hover:text-blue-500
+                    ">مشتریان</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+          <div class="mx-3 mb-8">
+            <h3 class="font-bold text-xl text-white mb-5">ما را دنبال کنید در:</h3>
+
+            <ul class="social-icons flex justify-start">
+              <li class="mr-4">
+                <a href="" class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-indigo-500
+                    ">
+                  <i class="lni lni-facebook-filled" aria-hidden="true"> </i>
+                </a>
+              </li>
+              <li class="mr-4">
+                <a href="" class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-blue-400
+                    ">
+                  <i class="lni lni-twitter-filled" aria-hidden="true"> </i>
+                </a>
+              </li>
+              <li class="mr-4">
+                <a href="j" class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-red-500
+                    ">
+                  <i class="lni lni-instagram-filled" aria-hidden="true"> </i>
+                </a>
+              </li>
+              <li class="mr-4">
+                <a href="" class="
+                      flex
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      text-sm text-gray-700
+                      duration-300
+                      hover:text-white hover:bg-indigo-600
+                    ">
+                  <i class="lni lni-linkedin-original" aria-hidden="true">
+                  </i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="
+        back-to-top
+        w-10
+        h-10
+        fixed
+        bottom-0
+        right-0
+        mb-5
+        mr-5
+        flex
+        items-center
+        justify-center
+        rounded-full
+        bg-blue-600
+        text-white text-lg
+        z-20
+        duration-300
+        hover:bg-blue-400
+      ">
+    <i class="lni lni-chevron-up"> </i>
+  </a>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+<script src="{{ url_for('static', filename='js/Codilo.js') }}"></script>
+
+  <a href="https://Codilo.ir" id="codilo_watermark">اختصاصی مجموعه کدیلو</a>
+</body>
+
+</html>
+
+<!-- 
+   ____   U  ___ u  ____              _       U  ___ u 
+U /"___|   \/"_ \/ |  _"\    ___     |"|       \/"_ \/ 
+\| | u     | | | |/| | | |  |_"_|  U | | u     | | | | 
+ | |/__.-,_| |_| |U| |_| |\  | |    \| |/__.-,_| |_| | 
+  \____|\_)-\___/  |____/ uU/| |\u   |_____|\_)-\___/  
+ _// \\      \\     |||_.-,_|___|_,-.//  \\      \\    
+(__)(__)    (__)   (__)_)\_)-' '-(_/(_")("_)    (__)-->
